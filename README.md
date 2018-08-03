@@ -10,7 +10,7 @@
 
 ## How to use
 
-Pass your action function in ```onClickOut``` on the ```ClickOut``` component
+Set your action function in ```onClickOut``` on the ```ClickOut``` component
 
 
 ## Examples
