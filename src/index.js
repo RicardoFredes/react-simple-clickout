@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { removeOutsideClickEvent, addOutsideClickEvent } from './actions'
 
-export default class OutClick extends Component {
+export default class ClickOut extends Component {
   componentWillUnmount(){
     removeOutsideClickEvent()
   }
