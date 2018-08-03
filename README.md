@@ -10,6 +10,11 @@
 
 ## How to use
 
+Pass your action function in ```onClickOut``` on the ```ClickOut``` component
+
+
+## Examples
+
 ```
 import React from 'react'
 import 'ClickOut' from 'react-simple-clickout'
@@ -32,7 +37,7 @@ class ReactSimpleClickOut extends React.Component {
         <h2>React Simple ClickOut</h2>
         <button onClick={() => this.setState({active: true})}>Click-me</button>
         {this.state.active && (
-          <ClickOut onClickOut={() => this.onClickOut()}>Ok</ClickOut>
+          <ClickOut onClickOut={() => this.onClickOut()}>I`m visible</ClickOut>
         )}
       </div>
     )
