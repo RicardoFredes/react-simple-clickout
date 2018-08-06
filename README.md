@@ -17,7 +17,7 @@ Set your action function in ```onClickOut``` on the ```ClickOut``` component
 
 ```
 import React from 'react'
-import 'ClickOut' from 'react-simple-clickout'
+import ClickOut from 'react-simple-clickout'
 
 class ReactSimpleClickOut extends React.Component {
   constructor(props) {
