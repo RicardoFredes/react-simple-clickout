@@ -15,7 +15,29 @@ Set your action function in ```onClickOut``` on the ```ClickOut``` component
 
 ## Examples
 
+```tsx
+import React, { useState } from 'react'
+import ClickOut from 'react-simple-clickout'
+
+const Test = () => {
+  const [active, setActive] = useState(false)
+
+  return (
+    <div>
+      <h2>React Simple ClickOut</h2>
+      <button onClick={() => setActive(true)}>Click-me</button>
+      {active && (
+        <ClickOut onClickOut={() => setActive(false)}>I`m visible</ClickOut>
+      )}
+    </div>
+  )
+}
+
+export default Test
+
 ```
+
+```jsx
 import React from 'react'
 import ClickOut from 'react-simple-clickout'
 
